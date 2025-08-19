@@ -1,0 +1,32 @@
+.caixa {
+    width: 130px;
+    height: 250px;
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 7px;
+}
+
+.luzvermelha {
+    width: 75px;
+    height: 75px;
+    background: rgb(131, 4, 4);
+    border-radius: 50%;
+    margin-top: 5px;
+}
+.luzamarela {
+    width: 75px;
+    height: 75px;
+    background: rgb(251, 255, 12);
+    border-radius: 50%;
+}
+.luzverde {
+    width: 75px;
+    height: 75px;
+    background: rgb(124, 255, 72);
+    border-radius: 50%;
+}
+body {
+    background-color: black;
+}

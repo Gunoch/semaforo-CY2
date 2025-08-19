@@ -1,0 +1,44 @@
+*{
+.caixa{
+    width: 130px;
+    height: 250px;
+    background: gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 7px
+
+}
+
+.luzvermelha{
+    width: 75px;
+    height: 75px;
+    background: red;
+    border-radius: 50px;
+ }
+
+ .luzamarela{
+    width: 75px;
+    height: 75px;
+    background: yellow;
+    border-radius: 50px;
+ }
+
+ .luzverde{
+    width: 75px;
+    height: 75px;
+    background: green;
+    border-radius: 50px;
+   margin-top: 15px; /* afasta do topo da caixa */
+ }
+
+ body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: black;
+ }
+ 
+}
